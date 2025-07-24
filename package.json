@@ -2,7 +2,7 @@
   "name": "pokemon-tracker",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/Michy1212/Pokemon-Tracker",
+  "homepage": "https://Michy1212.github.io/Pokemon-Tracker",
   "dependencies": {
     "@firebase/app": "^0.14.0",
     "@firebase/auth": "^1.11.0",
@@ -17,12 +17,12 @@
     "web-vitals": "^5.0.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && xcopy /E /I src\\sprites build\\sprites",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
+	  "start": "react-scripts start",
+	  "build": "react-scripts build && xcopy /E /I src\\sprites build\\sprites",
+	  "test": "react-scripts test",
+	  "eject": "react-scripts eject",
+	  "predeploy": "npm run build",
+	  "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
