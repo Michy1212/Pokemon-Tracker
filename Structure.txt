@@ -1,0 +1,42 @@
+/pokemon-tracker
+├── /public
+│   ├── /assets
+│   │   ├── /icons          # Pour les icônes custom
+│   │   └── /placeholder.png # Image de remplacement
+├── /src
+│   ├── /components
+│   │   ├── auth/
+│   │   │   ├── Login.jsx
+│   │   │   └── UserProfile.jsx
+│   │   ├── hunts/
+│   │   │   ├── HuntList.jsx
+│   │   │   └── CreateHunt.jsx
+│   │   ├── pokemon/
+│   │   │   ├── PokemonCard.jsx
+│   │   │   ├── PokemonGrid.jsx
+│   │   │   ├── PokemonSprite.jsx  # Composant dédié aux sprites
+│   │   │   └── StatusBadges.jsx   # Badges "ciblé"/"capturé"
+│   │   └── ui/
+│   │       ├── Loading.jsx
+│   │       └── ErrorMessage.jsx
+│   ├── /contexts
+│   │   ├── AuthContext.js
+│   │   └── HuntContext.js
+│   ├── /hooks
+│   │   ├── usePokemonData.js   # Hook pour récupérer les données Pokémon
+│   │   └── useRealTimeUpdates.js
+│   ├── /services
+│   │   ├── firebase.js        # Configuration Firebase
+│   │   ├── pokemonApi.js      # Wrapper pour PokeAPI
+│   │   └── huntService.js     # Opérations Firestore
+│   ├── /utils
+│   │   ├── constants.js       # Constantes globales
+│   │   ├── helpers.js         # Fonctions utilitaires
+│   │   └── pokemonUtils.js    # Spécifique Pokémon
+│   ├── App.js
+│   ├── index.js
+│   └── styles/
+│       ├── main.css
+│       ├── pokemon-grid.css
+│       └── themes/           # Pour le dark/light mode
+└── package.json
